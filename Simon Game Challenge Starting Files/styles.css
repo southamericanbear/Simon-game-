@@ -59,3 +59,13 @@ body {
   background-color: white;
   border-color: white;
 }
+
+@media (max-width: 959px) {
+  .btn {
+    margin: 0px;
+    margin-top: 5px;
+    border: 8px solid black;
+    height: 100px;
+    width: 100px;
+  }
+}

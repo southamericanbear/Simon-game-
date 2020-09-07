@@ -29,12 +29,13 @@ function nextSequence() {
 // here we detect which button is pressed by the user
 
 var bTn = document.getElementsByClassName("btn");
-for (var i = 0; i < bTn.length; i++) {
-  bTn[i].addEventListener("click", (e) => {
-    var userChosenColor = bTn[];
-    console.log(userChosenColor);
-  });
-}
+document.querySelectorAll(".btn").forEach((bt) => {
+  bt.onclick = () => {
+    console.clear();
+    console.log(bt.id);
+  };
+});
+
 // adudio stuff
 function playSound(name) {
   var audio = new Audio("sounds/" + name + ".mp3");
