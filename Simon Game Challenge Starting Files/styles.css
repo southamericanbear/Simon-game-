@@ -54,3 +54,8 @@ body {
   transform: scale(1.2, 1.2);
   box-shadow: 0 0 100px orange;
 }
+
+.FadeInFadeOut {
+  background-color: white;
+  border-color: white;
+}
